@@ -47,14 +47,14 @@ Methods	    Urls	                        Actions
 - GET	    /api/tutorials?title=[keyword]	find all Tutorials which title contains keyword
 
 # Technology
-vue: 2.6.10
-vue-router: 3.1.3
-axios: 0.19.0
+- vue: 2.6.10
+- vue-router: 3.1.3
+- axios: 0.19.0
 
 # Description
-– package.json contains 3 main modules: vue, vue-router, axios.
-– There are 3 components: TutorialsList, Tutorial, AddTutorial.
-– router.js defines routes for each component.
-– http-common.js initializes axios with HTTP base Url and headers.
-– TutorialDataService has methods for sending HTTP requests to the Apis.
-– vue.config.js configures port for this Vue Client.
+- package.json contains 3 main modules: vue, vue-router, axios.
+- There are 3 components: TutorialsList, Tutorial, AddTutorial.
+- router.js defines routes for each component.
+- http-common.js initializes axios with HTTP base Url and headers.
+- TutorialDataService has methods for sending HTTP requests to the Apis.
+- vue.config.js configures port for this Vue Client.
